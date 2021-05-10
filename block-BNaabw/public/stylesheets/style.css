@@ -1,0 +1,499 @@
+/* Css Reset */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------------- Custom Styles ----------------------*/
+
+
+/*---------------------- General Styles ----------------------*/
+
+
+/* Box Sizing Property */
+*{
+	box-sizing: border-box;
+}
+
+/* Font  */
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* Container for header */
+.header-container{
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+/* Container for major main sections */
+.container{
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 80px 0;
+}
+
+/* Flex box class */
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* To remove underline from every anchor tag */
+a{
+	text-decoration: none;
+}
+
+
+/* general button */
+.btn{
+	padding: 15px 30px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 600;
+}
+
+
+/* Button with background */
+.btn-fill{
+    border: none;
+    background: rgb(255, 107, 107);
+    color: white;
+}
+
+
+/* Button with border only */
+.btn-hollow{
+    border:solid 2px rgb(255, 107, 107);
+    color: rgb(255, 107, 107);
+}
+
+/* Padding Class */
+.padding{
+	padding: 80px 0;
+}
+
+.article-heading{
+	font-size:24px;
+	font-weight: 700;
+	color: rgb(0, 0, 88);
+	padding: 20px 0;
+}
+
+.article-para{
+	line-height: 25px;
+	color: rgb(124, 124, 124);
+}
+
+
+.aling-items-top{
+	align-items: flex-start;
+}
+
+/* Columns */
+.col{
+	flex: 0 1 30%;
+}
+
+/* Img-Width */
+.article-img{
+	width: 100%;
+}
+
+/*---------------------- Specific Styles ----------------------*/
+
+
+/* Upper header nav */
+.upper-header{
+	color: white;
+	padding: 20px 0;
+	background: darkblue;
+
+}
+
+/* Upper header icon color */
+.upper-header a{
+	color: white;
+}
+
+/* Adding font weight to upper header text */
+.upper-header span{
+	font-weight: 600;
+}
+
+/* Adding space between upper nav text */
+.left-nav li{
+	margin-right:50px;
+}
+
+/* Adding space between upper nav left icons */
+.left-nav i{
+	margin-right: 5px;
+}
+
+/* Adding space between upper nav right icons */
+.right-nav a{
+	margin-left: 12px;
+}
+
+/* Lowe header padding */
+.lower-header{
+	padding:30px 0;
+}
+
+/* Lower-header-button */
+#lower-header-btn{
+	margin-left: 50px ;
+	color: white;
+}
+
+/* Lower nav right links */
+.lower-header-right-links a{
+	margin-left:15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: darkblue;
+}
+
+/* hero section */
+.hero-section{
+	background: url("../media/hero/h1_hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Text in hero section */
+.hero-text {
+	text-transform: uppercase;
+	padding: 120px 0;
+}
+
+/* para of hero section */
+.hero-text p{
+	color: rgb(255, 107, 107);
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+/* Hero section heading */
+.hero-text h1 {
+	color: darkblue;
+	font-size: 55px;
+	font-weight: 900;
+	line-height: 60px;
+}
+
+/* Button / anchor of hero section */
+.hero-text a{
+	margin: 40px 0;
+}
+
+/* -------Team Section------- */
+
+/* Team */
+.team{
+	background: rgb(239, 249, 255);
+}
+
+.team-articles{
+	align-items: stretch;
+}
+
+/* Team article special column */
+.team-col-active{
+	border: 3px solid rgb(255, 107, 107);
+	padding: 20px;
+	background: rgb(255, 253, 244);
+}
+
+.team-article-border{
+	border-top: red solid 4px;
+	width: 30%;
+	height: 1%;
+	padding: 10px 0;
+}
+
+.team-col-active h3{
+	font-size: 43px;
+	font-weight: 900;
+}
+
+.team-col-active p {
+	padding-bottom: 15px;
+}
+
+.team-article-anchor{
+	color: rgb(0, 0, 88);
+}
+
+/* Well Trusted section */
+
+.well-trusted{
+	position: relative;
+}
+
+.well-trusted-img img{
+	width: 100%;
+}
+
+.well-trusted-text{
+	position: absolute;
+	width: 45%;
+	left: 600px;
+	top: 150px;
+	background-color:rgba(255, 255, 255, 0.7);
+	padding: 50px;
+}
+
+.well-trusted-text h3{
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.well-trusted-text a {
+	margin-top: 50px;
+}
+
+/* -------Services Section ------- */
+
+/* Service section heading */
+
+.service-top-heading{
+	font-size: 38px;
+	font-weight: 900;
+	text-align: center;
+}
+
+/* Service Column container */
+
+.service-icon-column{
+	margin-top: 100px ;
+}
+
+.service-col{
+	flex: 0 1 30%;
+	text-align: center;
+	background: rgb(239, 249, 255);
+	padding: 80px 20px;
+}
+
+.services-btn{
+	margin: 100px auto;
+	text-align: center;
+}
+
+/* Cases */
+.cases {
+	background: rgb(239, 249, 255);
+}
+
+.cases-text{
+	width: 60%;
+}
+
+.cases-text h3{
+	font-size: 38px;
+	font-weight: 900;
+}
+
+.cases-text a{
+	margin: 50px 0;
+}
+
+.cases-img {
+	width: 60%;
+	overflow: scroll;
+}
+
+.cases-img::-webkit-scrollbar{
+	width: 0px;
+    background: transparent;
+}
+
+.cases-img img {
+	width: 50%;
+	margin: 0 10px;
+}
+
+/* Testimonial Section */
+
+.testimonial-text{
+	text-align: center;
+}
+
+.testimonial-icon-para, .testimonial-star-icons{
+	margin: 30px 0;
+}
+
+.testimonial-icon-para i{
+	color: rgb(124, 124, 124);
+}
+
+.testimonial-star-icons{
+	color: gold;
+}
+
+.testimonial-icon-para blockquote{
+	padding: 0 100px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(0, 0, 68);
+}
+
+.bold-span{
+	font-weight: 600;
+	color: rgb(0, 0, 68);
+	font-size: 20px;
+}
+
+/* News */
+
+.news-heading{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.red-span{
+	color: rgb(255, 107, 107);
+}
+
+.article-col{
+	padding: 20px;
+}
+
+/* Call Back Section */
+
+.call-back-section{
+	background-color: rgb(0, 0, 90);
+	color: white;
+}
+
+.call-back-heading{
+	font-size: 36px;
+	font-weight: 900;
+	padding-bottom: 20px;
+	line-height: 45px;
+}
+
+.call-back-para{
+	line-height: 30px;
+}
+
+.call-back-form{
+	margin-top: 5px;
+}
+
+.call-back-form-input input{
+	background:transparent;
+	border: 2px solid rgb(131, 131, 131);
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.input-margin{
+	margin-right: 10px;
+}
+
+.call-back-drop-btn{
+	margin: 30px 0;
+}
+
+.drop-down{
+	border-radius: 5px;
+	border: 2px solid rgb(131, 131, 131);
+	padding: 10px 20px;
+	width: 100%;
+	margin-right: 20px;
+}
+
+/* Footer */
+footer{
+	background: rgb(239, 249, 255);
+}
+
+.footer-brand{
+	margin-right: 80px;
+}
+
+.footer-brand p{
+	padding: 30px 0;
+}
+
+.footer-icons i{
+	margin: 0 5px;
+}
+
+.footer-icons i:hover,.footer-col a:hover{
+	color: darkblue;
+}
+
+.footer-col h4{
+	padding-top: 0;
+}
+
+.footer-col a{
+	color: darkgrey;
+	line-height: 35px;
+	font-weight: 700;
+}
+
+.lower-footer{
+	padding-top: 0;
+}
+
+.lower-footer-para{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.lower-footer-para span{
+	color: red;
+}
