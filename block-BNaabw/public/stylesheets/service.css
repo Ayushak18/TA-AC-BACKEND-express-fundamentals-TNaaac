@@ -1,0 +1,20 @@
+/* Style classes specific for service page */
+
+.service-section-header{
+    background-image: url("../media/hero/services_hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.service-section-header h1{
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.service-padding{
+    padding-bottom: 80px;
+}

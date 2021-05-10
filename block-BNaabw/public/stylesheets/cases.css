@@ -1,0 +1,37 @@
+.case-study-section-header{
+    background-image: url("../media/hero/cases_hero.jpg");
+    background-size: cover;
+}
+
+.case-study-section-header h1{
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cases-img-section{
+	background: rgb(239, 249, 255);
+}
+
+.cases-img-col-section{
+    flex-wrap: wrap;
+}
+
+.col{
+    position: relative;
+    padding: 20px 0;
+}
+
+.cases-img-section-text{
+    position: absolute;
+    bottom: 20px;
+    width:80%;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.cases-img-section-text p{
+    padding-bottom: 10px;
+}

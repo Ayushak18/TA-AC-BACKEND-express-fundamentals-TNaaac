@@ -1,0 +1,58 @@
+.contact-us-section-banner{
+    background-image: url("../media/hero/contact_hero.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.contact-us-section-banner h1{
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-us-map{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-us-map img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-us-form-address{
+    padding-bottom: 50px;
+}
+
+.contact-us-form{
+   flex: 0 1 50%;
+   margin: 0 20px 20px 0;
+}
+
+.contact-us-form textarea ,input{
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+.input-one input{
+    width: 100%;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.info i{
+    margin: 0 20px;
+}
+
+.contact-us-info h4{
+    padding: 0;
+}
